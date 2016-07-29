@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="proyecto.ejemplo.mundo.hola.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN2ACTIVITY" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name=".EditTextActivity"
+            android:label="@string/title_activity_edit_text"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ImageViewActivity"
+            android:label="@string/title_activity_image_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SendDataActivity"
+            android:label="@string/title_activity_send_data"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReceiveDataActivity"
+            android:label="@string/title_activity_receive_data"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ToastActivity" />
+        <activity android:name=".RadioGroupActivity" />
+        <activity
+            android:name=".SpinnerActivity"
+            android:label="@string/title_activity_spinner"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Toggle" />
+        <activity
+            android:name=".ToggleActivity"
+            android:label="@string/title_activity_toggle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollActivity"
+            android:label="@string/title_activity_scroll"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AutoCompletarActivity"
+            android:label="@string/title_activity_auto_completar"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
